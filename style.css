@@ -1,0 +1,108 @@
+:root {
+    --bg-color1: #111;
+    --bg-color2: #1f1e1e;
+    --main-color: #89b5d6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color1);
+    font-family: Arial, sans-serif;
+}
+
+main {
+    font-size: x-large;
+    margin: 4%;
+    padding: 20px 50px;
+    background-color: var(--bg-color2);
+    color: #fff;
+    border-radius: 30px;
+    min-height: 90vh;
+}
+
+h1 {
+    text-align: center;
+    color: var(--main-color);
+}
+
+.new-task {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#taskInput {
+    font-size: 18px;
+    width: 70%;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.new-task button {
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease .3s;
+    border: none;
+}
+
+.new-task button:hover {
+    transform: scale(1.1)
+}
+
+.task-list h2 {
+    color: var(--main-color);
+}
+
+.tasks-container {
+    font-size: 20px;
+}
+
+.task {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.task label {
+    flex: 1;
+}
+
+.task input[type="checkbox"] {
+    accent-color: var(--main-color);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.task input[type="checkbox"]:checked+label {
+    text-decoration: line-through;
+    color: gray
+}
+
+.delete-btn {
+    background: transparent;
+    border: none;
+    color: #ff6b6b;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.delete-btn:hover {
+    transform: scale(1.2);
+}
