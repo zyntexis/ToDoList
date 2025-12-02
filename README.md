@@ -29,7 +29,7 @@ Perfect for beginners learning vanilla JavaScript and creating small, real-world
 ---
 
 ## Demo
-You can watch a **fast build of this app** on my YouTube channel: [Zyntexis](https://youtube.com/)
+You can watch a **fast build of this app** on my YouTube channel: [Zyntexis](https://www.youtube.com/@Zyntexis)
 
 ---
 
